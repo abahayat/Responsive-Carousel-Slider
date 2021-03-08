@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2 family=Arvo:wght@700&family=Open+Sans&display=swap');
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    font-family: 'arvo', serif;
+    font-weight: 700;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+#testimonial {
+    width: 100%;
+    background-color: #f63854;
+    text-align: center;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+.section-padding {
+    padding: 60px 0px;
+}
+.img-thumb {
+    margin: 15px;
+    text-align: center;
+}
+.img-thumb img {
+    width: inherit !important;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+    padding: 5px;
+}
+h2 a {
+    color: #222;
+}
+h3 a {
+    color: #333;
+}
+.testimonial-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+p {
+    color: #222;
+}
+.star-icon span i {
+    color: #f63854;
+}
+#testimonial .owl-theme .owl-dots .owl-dot span {
+    color: #fff;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+#testimonial .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #f63845;
+}
+#testimonial .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #f63845;
+}
+#testimonial .owl-dot:focus {
+    outline: none;
+}
+@media screen and (max-width: 1140px) {
+    .container {
+        width: 99%;
+        margin: auto;
+    }
+}
